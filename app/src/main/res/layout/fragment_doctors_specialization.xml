@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mindfire.ourhealth.registration.DoctorsSpecializationFragment">
+
+    <android.widget.Toolbar
+        android:id="@+id/doctors_specialization_fragment_tool_bar"
+        style="@style/CustomToolbarStyle"/>
+
+    <Button
+        android:id="@+id/specialization_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/next"/>
+
+    <include layout="@layout/my_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctors_specialization_fragment_tool_bar"
+        android:layout_above="@id/specialization_next_button"/>
+
+</RelativeLayout>

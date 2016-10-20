@@ -1,0 +1,26 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:clickable="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/greetings_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <GridView
+        android:id="@+id/user_options_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greetings_text_view"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:numColumns="auto_fit"
+        android:gravity="center" />
+
+</RelativeLayout>

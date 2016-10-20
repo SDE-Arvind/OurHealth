@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Styles for the Toolbar. -->
+    <style name="CustomToolbarStyle" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+
+    <!-- Styles for SignInFragment. -->
+    <style name="SignInFragmentEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="SignInFragmentButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/signInFragmentButtonColor</item>
+        <item name="android:textColor">@color/signInFragmentButtonTextColor</item>
+    </style>
+
+    <!-- Styles for SignUpFragment. -->
+    <style name="SignUpFragmentEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="SignUpFragmentSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">@color/signInFragmentButtonTextColor</item>
+    </style>
+
+    <style name="SignUpFragmentButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    "
+
+    <!-- Styles for DoctorsRegistrationFragment. -->
+
+    <style name="DoctorsRegistrationFragmentEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="DoctorsRegistrationFragmentSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="DoctorsRegistrationFragmentButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Styles for PatientsRegistrationFragment. -->
+
+    <style name="PatientsRegistrationFragmentButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

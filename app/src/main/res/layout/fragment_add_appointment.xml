@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    tools:context=".appointments.AddAppointmentFragment"
+    android:background="#FFFFFF"
+    tools:ignore="Overdraw">
+
+    <EditText
+        android:id="@+id/appointment_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/date_appointment"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/timing_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/specialization_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/location_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/book_appointment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/book_appointment"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

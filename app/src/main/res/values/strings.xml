@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Our Health</string>
+
+    <!-- String containing messages shown to user.-->
+    <string name="msg_no_internet">Please connect to internet..</string>
+    <string name="msg_server_error">Internal Server Error</string>
+    <string name="msg_add_profile_success">Profile created successfully!</string>
+    <string name="msg_invalid_credentials">Invalid user credentials.</string>
+    <string name="msg_profile_not_found">Profile not found.</string>
+    <string name="msg_request_invalid">Please fill the fields first..</string>
+    <string name="msg_unknown_error">Unknown error occurred..</string>
+    <string name="msg_try_again">Request failed. Please try again..</string>
+    <string name="msg_progress">Loading, please wait…</string>
+    <string name="msg_sign_up_success">Registration Successful!</string>
+    <string name="msg_recovery_success">Password recovered successfully</string>
+
+    <!-- Strings containing tool bar titles.-->
+    <string name="title_sign_up">Sign Up</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_qualifications">Qualifications</string>
+    <string name="title_recover_password">Recover Password</string>
+
+    <!-- Strings used for text fields validation-->
+    <string name="invalid_email_error_message">Enter valid Email!</string>
+    <string name="invalid_password_error_message">Must have at least \n1 numeric \n1 Upper case ,\n1 lower case \n must be length between 8-20 character </string>
+    <string name="match_password">Passwords do not match</string>
+    <string name="valid_name">Enter a valid name</string>
+    <string name="empty_field">Field cannot be empty</string>
+    <string name="number_only">Enter a number</string>
+    <string name="phone_number">Enter a valid phone number</string>
+
+    <!-- Strings for the Sign In form-->
+    <string name="our_health">ourHealth</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!-- Strings for the Sign Up form-->
+    <string name="user_name">Name</string>
+    <string name="user_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="security_question_answer">Answer</string>
+    <string name="next">Next</string>
+
+
+    <!-- Strings for the Doctor's Registration form-->
+    <string name="profile_pic">Profile Picture</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="locality">Locality</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="pin">PIN</string>
+    <string name="contact">Contact</string>
+    <string name="medical_registration_no">Medical Registration Number</string>
+    <string name="specialization">Specialization</string>
+    <string name="about_me">About Me</string>
+    <string name="location_name">Location Name</string>
+    <string name="description">Description</string>
+    <string name="contact_person_name">Contact Name</string>
+    <string name="contact_person_number">Contact Number</string>
+
+
+    <!-- Strings for Patients' registration form.-->
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="emergency_number">Emergency Number</string>
+    <string name="insurance_number">Insurance Number</string>
+
+    <!-- Strings for Password Recovery form.-->
+    <string name="reset_password">Reset Password</string>
+
+    <!-- Strings for Doctors Dashboard-->
+
+    <!--Strings for Doctors Practice Location form-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="location">Location</string>
+    <string name="time_in">Time In</string>
+    <string name="time_out">Time Out</string>
+
+    <!-- Strings for Patient Profile fragment -->
+    <string name="gender">Gender</string>
+
+    <string name="email_id">Email</string>
+    <string name="change_locality">Change Locality</string>
+
+    <string name="description_title">Description: </string>
+    <string name="date_title">Date: </string>
+    <string name="report">Report Image</string>
+
+    <!-- String for adding reports fragments.-->
+    <string name="report_title">Enter Title</string>
+    <string name="report_description">Enter Description</string>
+    <string name="choose_file_button">Choose File</string>
+    <string name="upload_button">Upload</string>
+
+    <!-- Strings for visit details fragment-->
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+    <string name="pulse_label">Pulse</string>
+    <string name="temp_label">Temperature</string>
+    <string name="medication_label">Medication</string>
+    <string name="medical_test_label">Medical Test</string>
+    <string name="diagnosis_label">Diagnosis</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="done">Done</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="timing_label">Timing</string>
+    <string name="status">Status</string>
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="filter">Filter</string>
+    <string name="day">Day</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+    <string name="insurance_company">Insurance Company</string>
+    <string name="date_appointment">Date of Appointment</string>
+    <string name="profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="dashboard_icon">Dashboard Icon</string>
+    <string name="qualification">Qualification</string>
+    <string name="edit">Edit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">Delete</string>
+
+</resources>

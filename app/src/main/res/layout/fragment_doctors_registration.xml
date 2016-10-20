@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration.DoctorsRegistrationFragment"
+    android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <include layout="@layout/registration_module_personal_info" />
+
+            <include layout="@layout/address_details" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/registration_num_edit_text"
+                    style="@style/DoctorsRegistrationFragmentEditText"
+                    android:inputType="text"
+                    android:hint="@string/medical_registration_no"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/about_me_edit_text"
+                    style="@style/DoctorsRegistrationFragmentEditText"
+                    android:inputType="textMultiLine"
+                    android:hint="@string/about_me"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/contact_number_edit_text"
+                    style="@style/DoctorsRegistrationFragmentEditText"
+                    android:inputType="phone"
+                    android:hint="@string/contact"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:hint="@string/next"/>
+        </LinearLayout>
+
+</ScrollView>

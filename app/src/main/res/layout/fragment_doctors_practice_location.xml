@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_margin="2dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="2dp"
+                    android:background="@drawable/edit_text_border">
+                <EditText
+                    android:id="@+id/location_name"
+                    android:layout_margin="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/location_name"/>
+                <EditText
+                    android:id="@+id/location_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/description"
+                    android:layout_margin="2dp"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:elevation="2dp"
+                        android:background="@drawable/edit_text_border">
+                    <EditText
+                        android:id="@+id/time_in_edit_text"
+                        android:layout_width="80dp"
+                        android:editable="false"
+                        android:layout_height="match_parent"
+                        android:hint="@string/time_in"
+                        android:layout_margin="2dp"/>
+                    <EditText
+                        android:id="@+id/time_out_edit_text"
+                        android:layout_width="90dp"
+                        android:editable="false"
+                        android:layout_height="match_parent"
+                        android:hint="@string/time_out"
+                        android:layout_margin="2dp"/>
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:scrollbarAlwaysDrawHorizontalTrack="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/selected_days_editText"
+                        android:layout_weight="1" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_margin="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/edit_text_border">
+                <EditText
+                    android:id="@+id/location_address"
+                    android:layout_margin="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/address"/>
+                <EditText
+                    android:id="@+id/location_locality"
+                    android:layout_margin="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/locality"/>
+                <EditText
+                    android:id="@+id/location_city"
+                    android:layout_margin="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/city"/>
+
+                    <EditText
+                    android:id="@+id/location_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:hint="@string/country"/>
+                <EditText
+                    android:layout_margin="2dp"
+                    android:id="@+id/location_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/state"/>
+                <EditText
+                    android:id="@+id/location_pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pin"
+                    android:layout_margin="2dp"
+                    android:inputType="number"
+                    tools:ignore="TextFields" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="@string/contact"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/edit_text_border">
+                <EditText
+                    android:id="@+id/location_contact_person"
+                    android:layout_margin="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/contact_person_name"/>
+                    </LinearLayout>
+                <EditText
+                    android:id="@+id/location_contact_number"
+                    android:layout_margin="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/contact_person_number"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/reset_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reset"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+
+
+
+

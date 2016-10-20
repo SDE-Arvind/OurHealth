@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mindfire.ourhealth.profile.DoctorProfileFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@drawable/default_profile_pic"
+            android:contentDescription="@string/profile_pic"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2">
+
+            <TextView android:text="@string/name"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/gender"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/gender_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/address"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/address_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/locality"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/locality_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/city"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/city_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/state"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/state_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/country"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/country_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/pin"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/pin_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/medical_registration_no"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/medical_reg_no_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/about_me"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/about_me_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/contact"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/contact_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/qualification"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/qualification_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView android:text="@string/specialization"
+                android:layout_margin="16dp"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/specialization_text_view"
+                android:layout_margin="16dp"/>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

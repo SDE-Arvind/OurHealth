@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/locality_text_view"
+        android:layout_below="@id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:text="@string/locality"/>
+
+    <EditText
+        android:id="@+id/locality_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locality_text_view"
+        android:layout_margin="16dp"
+        android:inputType="text"
+        android:hint="@string/change_locality"/>
+
+    <TextView
+        android:id="@+id/specialization_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:layout_below="@id/locality_edit_text"
+        android:text="@string/specialization"/>
+
+    <Button
+        android:id="@+id/filter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/ok"/>
+
+    <include layout="@layout/my_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/specialization_text_view"
+        android:layout_above="@id/filter_button" />
+
+</RelativeLayout>

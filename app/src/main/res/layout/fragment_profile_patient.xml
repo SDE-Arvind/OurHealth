@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.PatientProfileFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@drawable/default_profile_pic"
+            android:contentDescription="@string/profile_pic"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:text="@string/name"/>
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:text="@string/gender"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:id="@+id/gender_text_view"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:text="@string/dob"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:id="@+id/dob_text_view"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:text="@string/address"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:id="@+id/address_text_view"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:text="@string/locality"/>
+
+            <TextView android:id="@+id/locality_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/city"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/city_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/state"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/state_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/country"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/country_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/pin"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/pin_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/contact"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/contact_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/emergency_contact"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/emergency_contact_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/emergency_number"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/emergency_number_text_view"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/insurance_company"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:id="@+id/insurance_company_text_view"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/insurance_number"
+                android:layout_margin="16dp"/>
+
+            <TextView android:id="@+id/insurance_number_text_view"
+                android:layout_margin="16dp"/>
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>
